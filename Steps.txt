@@ -1,0 +1,17 @@
+Step 1 : Create login on GitHub.com & Install GitHub & GitShell on local machine
+Step 2 : Create Repository
+Step 3 : Create Folder on local machine with name same as Repository name
+Step 4 : if Repository created without initializing (without ReadMe.md file) then,
+	a. Start Command Prompt
+	b. Set the path to folder with Repository name
+	c. Type the following commands to create a new repository on the command line
+		echo "# DemoRepo" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin https://github.com/pratikgholam/DemoRepo.git
+		git push -u origin master
+Step 5 : Skip Step 4 if Repository created with ReadMe.md file
+Step 6 : To push an existing repository from the command line
+		git remote add origin https://github.com/pratikgholam/DemoRepo.git
+		git push -u origin master
